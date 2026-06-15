@@ -1,0 +1,33 @@
+# Diretorio de compilacao gerado pelo Cargo
+deck/target/
+
+# Arquivos de lock de dependencias
+# Obs: deixe o Cargo.lock se for um binario/aplicacao, ignore se for uma biblioteca (crate)
+Cargo.lock
+
+# Arquivos de backup gerados pelo rustfmt
+*.rs.bk
+
+# Simbolos de debug (gerados em builds MSVC no Windows)
+*.pdb
+
+# Arquivos de teste e code coverage do cargo-tarpaulin
+*.profraw
+
+# Arquivos temporarios comuns
+*.log
+*.tmp
+*.swp
+
+# Arquivos de configuracao local e variaveis de ambiente
+.env
+*.local
+
+# Pastas e arquivos tipicos de IDEs (ex: VS Code, JetBrains)
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln
+
